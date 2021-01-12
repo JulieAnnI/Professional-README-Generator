@@ -75,6 +75,7 @@ function generateMarkdown(data) {
   ## Usage
   
   ${data.usage}
+  
   ${data.screenshots}
   
   ## Credits
