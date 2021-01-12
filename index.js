@@ -72,10 +72,59 @@ const questions = () => {
 };
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return `# ${fileName.title}
+
+    ## Description
+    
+    ${data.description}
+    
+    ## Table of Contents
+    
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [Credits](#Credits)
+    - [Contributing](#Contributing)
+    - [Questions](#Questions)
+    - [License](#License)
+    - [Tests](#Tests)
+    
+    ## Installation
+    
+    ${data.installation}
+    
+    ## Usage
+    
+    ${data.usage}
+    ${data.screenshots}
+    
+    ## Credits
+    
+    ${data.credits}
+    
+    ## Contributing 
+    
+    ${data.contributing}
+    
+    ## Questions
+    
+    - Email: ${data.email}
+    - Github:  https://github.com/${data.github}
+    
+    ${data.questions}
+    
+    ## License
+    
+    ${data.license}
+    
+    ## Tests
+    
+    ${data.tests}`
+
+};
 
 // TODO: Create a function to initialize app
-function init() {}
+
 
 // Function call to initialize app
 init();
