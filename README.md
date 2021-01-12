@@ -1,6 +1,5 @@
 # Professional README Generator
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) 
-  ![JavaScript] (https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
   ## Description
   
@@ -23,6 +22,8 @@
   ## Usage
   
   This Professional README Generator can be used by anyone who needs to create a README for a project. It is an easy and simple way to create a professional-grade README with very little effort and time required from the user. I can see this project becoming even more detailed in the future to make READMEs that go above and beyond the standard and really fully immerse any viewer on what your project can do. 
+
+  [Demo](https://drive.google.com/file/d/17ymAM94xsFlzWtQws0jQhNdict073R-j/view?usp=sharing) video to see how this generator works!
 
   ![image1](/images/image1.png) 
   ![image2](/images/image2.png) 
