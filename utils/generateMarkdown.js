@@ -24,17 +24,17 @@ function renderLicenseLink(license) {
   if (license === "No License") {
     return ``;
   } else if (license === "MIT") {
-      return `(https://opensource.org/licenses/MIT)`;
+      return `https://opensource.org/licenses/MIT`;
   }else if(license === "GPLv2") {
-      return `(https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
+      return `https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html`;
   }else if(license === "Apache") {
-      return `(https://opensource.org/licenses/Apache-2.0)`;
+      return `https://opensource.org/licenses/Apache-2.0`;
   }else if(license === "GPLv3") {
-      return `(https://www.gnu.org/licenses/gpl-3.0)`;
+      return `https://www.gnu.org/licenses/gpl-3.0`;
   }else if(license === "BSD 3-clause") {
-      return `(https://opensource.org/licenses/BSD-3-Clause)`;
+      return `https://opensource.org/licenses/BSD-3-Clause`;
   }else if (license === "Unlicense") {
-      return `(http://unlicense.org/)`;
+      return `http://unlicense.org/`;
   }
 }
 
@@ -45,14 +45,14 @@ function renderLicenseSection(license, github) {
     return ``;
   } else {
     return `Copyright (c)  ${github}.
-    This project is [${license}](${renderLicenseLink(license)}) licensed. 
-    ${renderLicenseBadge(license)} `;
+    This project is [${license}](${renderLicenseLink(license)}) licensed.`;
   }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ${renderLicenseBadge(data.license)}  
 
   ## Description
   

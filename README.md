@@ -1,4 +1,5 @@
-# Project
+# Test Readme
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)]  
 
   ## Description
   
@@ -16,20 +17,20 @@
   
   ## Installation
   
-  This are the instructions.
+  This is how you install it.
   
   ## Usage
   
-  You can use this to make READMEs.
-  ![image1](images/image1.png)
+  You can use this to make READMES.
+  
   
   ## Credits
   
-  Thanks Mom!
+  
   
   ## Contributing 
   
-  Don't do it.
+  
   
   ## Questions
   
@@ -37,14 +38,13 @@
   - Email: julieanniwinski@gmail.com
   - Github:  https://github.com/JulieAnnI
   
-  Feel free to contact me anytime!
+  None
   
   ## License
   
   Copyright (c)  JulieAnnI.
-    This project is [Apache]((https://opensource.org/licenses/Apache-2.0)) licensed. 
-    [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)] 
+    This project is [GPLv3](https://www.gnu.org/licenses/gpl-3.0) licensed.
   
   ## Tests
   
-  None right now.
+  
