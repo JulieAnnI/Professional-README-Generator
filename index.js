@@ -27,7 +27,7 @@ const questions = [
     {
         type:"input",
         name: "usage",
-        message: "Enter instructions and examples."
+        message: "Enter usage instructions and examples."
     },
     {
         type:"input",
