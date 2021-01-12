@@ -3,8 +3,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const writeFileAsync = util.promisify(writeToFile);
-
-const generateMarkdown = require('./utils/generateMarkdown.js');
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 
 // TODO: Create an array of questions for user input
@@ -68,7 +67,7 @@ const questions = [
         type:"list",
         name: "license",
         message: "Please choose a license for your project.",
-        choices:["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause", "Unlicense"] 
+        choices:["MIT", "GPLv2", "Apache", "GPLv3", "BSD 3-clause", "Unlicense", "No License"] 
     },
 ];
 
